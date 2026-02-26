@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    font-family: monospace;
+}
