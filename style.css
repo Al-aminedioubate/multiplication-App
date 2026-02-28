@@ -46,6 +46,9 @@ button{
     width: 500px;
     height: 40px;
     margin-top: 15px;
+    background-color: darkgreen;
+    border-style: none;
+    color: white;
 }
 
 
