@@ -41,6 +41,7 @@ input{
     border-style: double;
     border-color: darkgreen;
     appearance: none;
+    color: darkgreen;
 }
 
 /* Supprimer les flèches Chrome / Edge / Safari */
