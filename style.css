@@ -33,3 +33,9 @@ body{
     font-weight: bold;
 }
 
+input{
+    width: 500px;
+    height: 50px;
+    text-align: center;
+}
+
