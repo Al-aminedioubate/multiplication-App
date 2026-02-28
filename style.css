@@ -40,6 +40,19 @@ input{
     font-size: 30px;
     border-style: double;
     border-color: darkgreen;
+    appearance: none;
+}
+
+/* Supprimer les flèches Chrome / Edge / Safari */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Supprimer les flèches Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
 }
 
 button{
