@@ -21,6 +21,5 @@ function multiplication() {
 	console.log("le resultat du calcul est : " + result);
 }
 
-multiplication();
-
-
+//Evenement du gestion du calcul
+btn.addEventListener("click", multiplication);
