@@ -17,9 +17,23 @@ secondeNumber.textContent = numberTwo;
 function multiplication() {
 	let result = numberOne * numberTwo;
 
-	if (input.value == result) {
-		console.log("bravo vous avez trouver la reponse");
+	// Récupérons le score existant
+	if (input.value === "") return;
+
+	let scoreCount = parseInt(localStorage.getItem("score")) || 0;
+
+	if (input.value === result) {
+		scoreCount++;
+	} else {
+		scoreCount--;
 	}
+
+	//console.log("votre score eest " + scoreCount);
+
+	//Sauvegardons le nouveau score ici
+	localStorage.setItem("score", scoreCount);
+
+	score.textContent = `score : ${scoreCount}`;
 }
 
 //Evenement du gestion du calcul
