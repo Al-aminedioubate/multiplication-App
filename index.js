@@ -12,9 +12,15 @@ function multiplication() {
 
 	let result = numberOne * numberTwo;
 
+	//affichons les valeurs sur la page
+	firstNumber.textContent = numberOne;
+	secondeNumber.textContent = numberTwo;
+
 	console.log(numberOne);
 	console.log(numberTwo);
 	console.log("le resultat du calcul est : " + result);
 }
 
 multiplication();
+
+
