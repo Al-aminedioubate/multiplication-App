@@ -35,6 +35,8 @@ function multiplication() {
 
 	//Sauvegardons le nouveau score ici
 	localStorage.setItem("score", scoreCount);
+
+	//affichons notre score sauvegarder
 	score.textContent = `score : ${scoreCount}`;
 }
 
