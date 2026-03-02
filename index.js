@@ -19,7 +19,9 @@ score.textContent = `score : ${savedScore}`;
 
 //la fonction permettant de faire la multiplication
 function multiplication() {
+	//faisons la multiplication de deux nombres generer
 	let result = numberOne * numberTwo;
+
 	let user = parseInt(input.value);
 
 	// Récupérons le score existant
